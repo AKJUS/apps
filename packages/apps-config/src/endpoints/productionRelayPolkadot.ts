@@ -25,9 +25,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       'Acala Foundation 1': 'wss://acala-rpc-1.aca-api.network',
       // 'Acala Foundation 2': 'wss://acala-rpc-2.aca-api.network/ws', // https://github.com/polkadot-js/apps/issues/6965
       'Acala Foundation 3': 'wss://acala-rpc-3.aca-api.network/ws',
-      Dwellir: 'wss://acala-rpc.n.dwellir.com',
-      IBP1: 'wss://acala.ibp.network',
-      IBP2: 'wss://acala.dotters.network'
+      Dwellir: 'wss://acala-rpc.n.dwellir.com'
       // LuckyFriday: 'wss://rpc-acala.luckyfriday.io', // https://github.com/polkadot-js/apps/issues/10728
       // 'Automata 1RPC': 'wss://1rpc.io/aca' // https://github.com/polkadot-js/apps/issues/8648
       // OnFinality: 'wss://acala-polkadot.api.onfinality.io/public-ws'
@@ -57,9 +55,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'ajuna',
     paraId: 2051,
     providers: {
-      AjunaNetwork: 'wss://rpc-para.ajuna.network',
-      IBP1: 'wss://ajuna.ibp.network',
-      IBP2: 'wss://ajuna.dotters.network'
+      AjunaNetwork: 'wss://rpc-para.ajuna.network'
       // OnFinality: 'wss://ajuna.api.onfinality.io/public-ws'
       // RadiumBlock: 'wss://ajuna.public.curie.radiumblock.co/ws' https://github.com/polkadot-js/apps/issues/10990
     },
@@ -119,8 +115,6 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'bifrost',
     paraId: 2030,
     providers: {
-      IBP1: 'wss://bifrost-polkadot.ibp.network',
-      IBP2: 'wss://bifrost-polkadot.dotters.network',
       Liebi: 'wss://hk.p.bifrost-rpc.liebi.com/ws',
       LiebiEU: 'wss://eu.bifrost-polkadot-rpc.liebi.com/ws'
       // OnFinality: 'wss://bifrost-polkadot.api.onfinality.io/public-ws',
@@ -375,8 +369,6 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 3367,
     providers: {
       BlockOps: 'wss://hyperbridge-nexus-rpc.blockops.network',
-      IBP1: 'wss://nexus.ibp.network',
-      IBP2: 'wss://nexus.dotters.network',
       'Polytope Labs': 'wss://nexus.rpc.polytope.technology'
     },
     text: 'Hyperbridge (Nexus)',
@@ -530,8 +522,6 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       // 'Automata 1RPC': 'wss://1rpc.io/glmr', // https://github.com/polkadot-js/apps/issues/10566
       // Blast: 'wss://moonbeam.public.blastapi.io', // https://github.com/polkadot-js/apps/issues/11965
       Dwellir: 'wss://moonbeam-rpc.n.dwellir.com',
-      IBP1: 'wss://moonbeam.ibp.network',
-      IBP2: 'wss://moonbeam.dotters.network',
       'Moonbeam Foundation': 'wss://wss.api.moonbeam.network',
       OnFinality: 'wss://moonbeam.api.onfinality.io/public-ws',
       RadiumBlock: 'wss://moonbeam.public.curie.radiumblock.co/ws',
@@ -796,9 +786,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2037,
     providers: {
       // Dwellir: 'wss://unique-rpc.n.dwellir.com', // https://github.com/polkadot-js/apps/issues/11531
-      'Geo Load Balancer': 'wss://ws.unique.network',
-      IBP1: 'wss://unique.ibp.network',
-      IBP2: 'wss://unique.dotters.network'
+      'Geo Load Balancer': 'wss://ws.unique.network'
       // OnFinality: 'wss://unique.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/10030
       // 'Unique America': 'wss://us-ws.unique.network',
       // 'Unique Asia': 'wss://asia-ws.unique.network',
